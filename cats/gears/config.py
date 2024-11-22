@@ -30,7 +30,7 @@ class Config(BaseModel):
     http_server: HTTPServerConfig
 
 
-def load() -> Config:
+def load_config() -> Config:
     """ Loads 'cats' configuration.
 
     Returns:
